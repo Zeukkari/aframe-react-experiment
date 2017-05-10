@@ -23,6 +23,7 @@
   },
   "license": "MIT",
   "author": "Timo Aho",
+  "homepage": "https://zeukkari.github.io/aframe-react-experiment",
   "repository": {
     "type": "git",
     "url": "https://github.com/Zeukkari/aframe-react-experiment.git"
