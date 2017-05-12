@@ -31,7 +31,7 @@ class App extends React.Component {
         <Player />
 
         <TitleText text="Hello"/>
-        <Comic src="./img/comic/comic323.png" />
+        <Comic src="./img/comic/comic323.PNG" />
 
       </Scene>
     );
