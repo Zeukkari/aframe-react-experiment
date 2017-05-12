@@ -1,18 +1,16 @@
 import 'aframe';
 import 'aframe-animation-component';
 import 'aframe-particle-system-component';
-
+import {Scene} from 'aframe-react';
 import 'babel-polyfill';
-import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
-
 import Sun from './components/sun';
 import Sky from './components/sky';
 import Floor from './components/floor';
-import Title from './components/title';
 import Player from './components/player';
-
+import TitleText from './components/title';
+import Comic from './components/comic'
 
 class App extends React.Component {
   constructor(props) {
@@ -24,17 +22,20 @@ class App extends React.Component {
     return (
       <Scene>
         <a-assets>
-          <img id="groundTexture" src="./img/floor.jpg"/>
-          <img id="skyTexture" src="./img/sky.jpg"/>
+          <img id="groundTexture" src="./img/floor.jpg" alt="" />
+          <img id="skyTexture" src="./img/sky.jpg" alt="" />
         </a-assets>
-        <Sun />
         <Sky />
+        <Sun />
         <Floor />
-        <Title />
         <Player />
+
+        <TitleText text="Hello"/>
+        <Comic src="./img/comic/comic323.png" />
+
       </Scene>
     );
   }
 }
 
-ReactDOM.render(<App/>, document.querySelector('#sceneContainer'));
+ReactDOM.render(<App />, document.querySelector('#sceneContainer'));
