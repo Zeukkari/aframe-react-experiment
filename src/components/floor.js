@@ -6,7 +6,7 @@ const Floor = (props) => {
     return <Entity 
             primitive="a-plane" 
             src="#groundTexture" 
-            scale="0.196 0.237 1" 
+            scale="0.3 0.3 1" 
             rotation="-90 0 0" 
             height="100" 
             width="100"/>

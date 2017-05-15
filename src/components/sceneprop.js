@@ -3,9 +3,9 @@ import 'aframe-look-at-billboard-component';
 import {Entity} from 'aframe-react';
 import React from 'react';
 
-const Comic = ({src}) => {
+const SceneProp = ({src, position}) => {
     console.log("src: ", src);
-    let position = {x: 0, y: 0, z: 0};
+    console.log("position: ", position);
     return <Entity
             billboard 
             primitive="a-plane"  
@@ -18,4 +18,4 @@ const Comic = ({src}) => {
             />
 };
 
-export default Comic;
+export default SceneProp;
