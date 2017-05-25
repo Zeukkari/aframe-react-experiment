@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@4.1.2
+3 info using node@v7.7.2
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle aframe-react-experiment@3.0.1~prestart: aframe-react-experiment@3.0.1
+6 silly lifecycle aframe-react-experiment@3.0.1~prestart: no script for prestart, continuing
+7 info lifecycle aframe-react-experiment@3.0.1~start: aframe-react-experiment@3.0.1
+8 verbose lifecycle aframe-react-experiment@3.0.1~start: unsafe-perm in lifecycle true
+9 verbose lifecycle aframe-react-experiment@3.0.1~start: PATH: C:\Users\timo.aho\AppData\Roaming\nvm\v7.7.2\node_modules\npm\bin\node-gyp-bin;C:\git\aframe-react-experiment-2\node_modules\.bin;C:\Program Files\Docker\Docker\Resources\bin;C:\git\emsdk;C:\git\emsdk\clang\fastcomp\build_incoming_vs2015_64\RelWithDebInfo\bin;C:\git\emsdk\python\2.7.5.3_64bit;C:\git\emsdk\java\7.45_64bit\bin;C:\git\emsdk\emscripten\incoming;C:\git\emsdk\binaryen\master;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v8.0\libnvvp;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\CMake\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Xoreax\IncrediBuild;C:\Users\timo.aho\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\timo.aho\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\timo.aho\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\timo.aho\AppData\Local\Programs\Python\Python36-32\;C:\Users\timo.aho\AppData\Local\Microsoft\WindowsApps;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\timo.aho\AppData\Roaming\npm;C:\Python27;C:\Users\timo.aho\AppData\Roaming\nvm;C:\Program Files\nodejs
+10 verbose lifecycle aframe-react-experiment@3.0.1~start: CWD: C:\git\aframe-react-experiment-2
+11 silly lifecycle aframe-react-experiment@3.0.1~start: Args: [ '/d /s /c', 'react-scripts start' ]
+12 verbose stack Error: kill ENOSYS
+12 verbose stack     at exports._errnoException (util.js:1033:11)
+12 verbose stack     at process.kill (internal/process.js:188:13)
+12 verbose stack     at process.listener (C:\Users\timo.aho\AppData\Roaming\nvm\v7.7.2\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:95:15)
+12 verbose stack     at emitNone (events.js:86:13)
+12 verbose stack     at process.emit (events.js:188:7)
+12 verbose stack     at processEmit (C:\Users\timo.aho\AppData\Roaming\nvm\v7.7.2\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:155:32)
+12 verbose stack     at Signal.wrap.onsignal (internal/process.js:215:44)
+13 verbose cwd C:\git\aframe-react-experiment-2\public
+14 error Windows_NT 10.0.15063
+15 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "start"
+16 error node v7.7.2
+17 error npm  v4.1.2
+18 error code ENOSYS
+19 error errno ENOSYS
+20 error syscall kill
+21 error kill ENOSYS
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
